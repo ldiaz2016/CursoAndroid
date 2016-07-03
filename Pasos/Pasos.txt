@@ -1,0 +1,15 @@
+﻿#ProyectoFinal
+
+1. Clonar branch master del repositorio github "ProyectosCursoAndroid" (El proyecto se encuentra en la carpeta "ProyectoFinal")
+	- Carpeta "ProyectoFinal"
+            - Carpeta "ApiProyecto"
+            - Carpeta "BaseDatosMySql"
+	    - Carpeta "Pasos"
+
+2. Crear esquema MySql llamado "proyecto" (user:"root"; password:"")
+3. Ejecutar script "Crea_BD.sql" (se encuentra en carpeta "BaseDatosMySql")
+4. Crear el store procedure "usp_Cliente_Registrar.sql" (se encuentra en carpeta "BaseDatosMySql")
+5. Copiar carpeta "ApiProyecto" a "C:\xampp\htdocs"
+
+6. Descargar branch: 1-AgregarProyectoAndroid
+	Creación de proyecto vacío android "AppFinal"
