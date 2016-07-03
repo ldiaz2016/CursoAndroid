@@ -13,3 +13,6 @@
 
 6. Descargar branch: 1-AgregarProyectoAndroid
 	Creación de proyecto vacío android "AppFinal"
+
+7. Descargar branch: 2-ModificarActivityMain
+	Modificamos "activity_main.xml"
