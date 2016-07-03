@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickConsultar(View view)
     {
-        //Intent intent = new Intent(getApplicationContext(),ConsultarActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(),ConsultarActivity.class);
+        startActivity(intent);
         this.finish();
     }
 
