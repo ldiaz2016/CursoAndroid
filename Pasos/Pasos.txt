@@ -16,3 +16,15 @@
 
 7. Descargar branch: 2-ModificarActivityMain
 	Modificamos "activity_main.xml"
+
+8. Descargar branch: 3-AgregarActivityRegistrar
+	Agregamos "activity_registrar.xml"
+	Agregamos "Util.java"
+
+9. Descomprimir la carpeta "libs.rar"
+
+10. Copiar la carpeta "libs" a la direccion "...\ProyectoFinal\AppFinal\app"
+
+11. En android, sincronizar archivos gradle
+
+12. Cambiar en clase "Util.java" la direción ip del servicio web
