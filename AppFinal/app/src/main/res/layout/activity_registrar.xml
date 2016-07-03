@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="com.example.user.appfinal.RegistrarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido Paterno:"
+        android:id="@+id/tvPaterno"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPaterno"
+        android:layout_below="@+id/tvPaterno"
+        android:layout_alignLeft="@+id/tvPaterno"
+        android:layout_alignStart="@+id/tvPaterno"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido Materno:"
+        android:id="@+id/tvMaterno"
+        android:layout_below="@+id/etPaterno"
+        android:layout_alignLeft="@+id/etPaterno"
+        android:layout_alignStart="@+id/etPaterno"
+        android:layout_marginTop="0dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etMaterno"
+        android:layout_below="@+id/tvMaterno"
+        android:layout_alignLeft="@+id/tvMaterno"
+        android:layout_alignStart="@+id/tvMaterno" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres:"
+        android:id="@+id/tvNombres"
+        android:layout_below="@+id/etMaterno"
+        android:layout_alignLeft="@+id/etMaterno"
+        android:layout_alignStart="@+id/etMaterno" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombres"
+        android:layout_below="@+id/tvNombres"
+        android:layout_alignLeft="@+id/tvNombres"
+        android:layout_alignStart="@+id/tvNombres" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNI:"
+        android:id="@+id/tvDNI"
+        android:layout_below="@+id/etNombres"
+        android:layout_alignLeft="@+id/etNombres"
+        android:layout_alignStart="@+id/etNombres" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDNI"
+        android:layout_below="@+id/tvDNI"
+        android:layout_alignLeft="@+id/tvDNI"
+        android:layout_alignStart="@+id/tvDNI" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        android:id="@+id/tvDireccion"
+        android:layout_below="@+id/etDNI"
+        android:layout_alignLeft="@+id/etDNI"
+        android:layout_alignStart="@+id/etDNI" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDireccion"
+        android:layout_below="@+id/tvDireccion"
+        android:layout_alignLeft="@+id/tvDireccion"
+        android:layout_alignStart="@+id/tvDireccion" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono:"
+        android:id="@+id/tvTelefono"
+        android:layout_below="@+id/etDireccion"
+        android:layout_alignLeft="@+id/etDireccion"
+        android:layout_alignStart="@+id/etDireccion" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTelefono"
+        android:layout_below="@+id/tvTelefono"
+        android:layout_alignLeft="@+id/tvTelefono"
+        android:layout_alignStart="@+id/tvTelefono" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        android:id="@+id/btnAceptar"
+        android:layout_marginTop="0dp"
+        android:onClick="onClickRegistrar"
+        android:layout_below="@+id/etTelefono"
+        android:layout_alignLeft="@+id/etTelefono"
+        android:layout_alignStart="@+id/etTelefono" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETORNAR"
+        android:id="@+id/btnRetornar"
+        android:layout_alignTop="@+id/btnAceptar"
+        android:layout_alignRight="@+id/etTelefono"
+        android:layout_alignEnd="@+id/etTelefono"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="onCLickRetornar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:id="@+id/tvResultado"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnAceptar"
+        android:layout_alignStart="@+id/btnAceptar" />
+</RelativeLayout>

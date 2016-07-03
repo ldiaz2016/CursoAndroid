@@ -28,3 +28,6 @@
 11. En android, sincronizar archivos gradle
 
 12. Cambiar en clase "Util.java" la direción ip del servicio web
+
+13. Descargar branch: 4-AgregarActivityConsultar
+	Agregamos "activity_consultar.xml"
